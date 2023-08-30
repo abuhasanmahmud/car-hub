@@ -4,7 +4,7 @@ import SearchManufacture from "./SearchManufacture";
 
 const SearchBar = () => {
   const [manufacture, setManufacture] = useState("");
-  console.log("manufacture");
+  // console.log("manufacture");
   const handelSubmit = () => {};
   return (
     <form className="searchbar" onSubmit={handelSubmit}>
